@@ -1,0 +1,27 @@
+.bx-breadcrumb {
+    margin: -12px 0 0 -14px;
+}
+.bx-breadcrumb i {
+	color: #808080;
+    font-size: 9px;
+	line-height: 11px;
+	vertical-align: middle;
+	margin-right: 0px;
+}
+.bx-breadcrumb .bx-breadcrumb-item {
+	float: left;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	line-height: 13px;
+	vertical-align: middle;
+	margin-right: 3px;
+    color: #808080;
+    font-family: Georgia, Verdana, Arial, sans-serif;
+}
+.bx-breadcrumb .bx-breadcrumb-item span {
+	font-family: Georgia, Verdana, Arial, sans-serif;
+	font-size: 11px;
+    color: #808080;
+}
+.bx-breadcrumb .bx-breadcrumb-item a {border-bottom: none;}
+.bx-breadcrumb .bx-breadcrumb-item a:hover {}

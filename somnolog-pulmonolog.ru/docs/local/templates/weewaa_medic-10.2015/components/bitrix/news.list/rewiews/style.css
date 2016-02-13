@@ -1,0 +1,43 @@
+.rew-list {
+
+}
+.rew-list .rew-item {
+
+}
+.rew-list .rew-item .name {
+    color: #025156;
+    overflow: hidden;
+}
+.rew-list .rew-item .name span.date {
+    color: #808080;
+    font-size: 12px;
+    float: right;
+}
+.rew-list .rew-item .comment {
+    color: #585858;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+/*
+.rew-form {
+    margin-top: 40px;
+}
+
+#main-form.rew-form .prop_PREVIEW_TEXT textarea {
+    width: 420px;
+}
+#main-form.rew-form .prop_NAME input, #main-form .prop_2 input {
+   //  width: 420px;
+}
+
+#main-form.rew-form input[type="submit"] {
+    margin: 0 0 0 120px;
+}
+*/
+#main-form.rew-form #phone_top p.hOk,
+#main-form.rew-form .hOk {
+    margin-left: 100px;
+}
+#main-form.rew-form a#close_2 {
+    right: 117px !important;
+}

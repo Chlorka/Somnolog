@@ -1,0 +1,56 @@
+.blog-last-list {
+    padding: 0 12px;
+    margin-bottom: 50px;
+}
+.blog-last-list .h {
+    color: #025156;
+    font-family: Georgia,Verdana,Arial,sans-serif;
+    font-size: 23px;
+    margin-bottom: 26px;
+    margin-top: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blog-last-list .date-time {
+    display: block;
+    color: #000;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    font-weight: normal;
+}
+.blog-last-list div.item {
+    margin-bottom: 10px;
+}
+.blog-last-list div.item > div {
+    width: 175px;
+}
+.blog-last-list div.item a {
+    color: #000;
+    padding-left: 12px;
+}
+.blog-last-list p.more {
+    text-align: right;
+    display: block;
+    height: 17px;
+    margin: 0;
+}
+.blog-last-list p.more a {
+    padding-left: 14px;
+    display: inline-block;
+    height: 17px;
+    background: url('/local/templates/weewaa_medic-10.2015/images/more.png') left center no-repeat;
+}
+
+.blog-last-list p.more a span {
+    display: block;
+    text-align: center;
+    background: #025156;
+    color: #fff;
+    width: 70px;
+    height: 17px;
+    line-height: 15px;
+}
+.blog-last-list p.more a:hover span {
+    background: #007077;
+}

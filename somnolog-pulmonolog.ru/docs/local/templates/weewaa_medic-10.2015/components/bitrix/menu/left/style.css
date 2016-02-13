@@ -1,0 +1,36 @@
+/* Left menu*/
+ul.left-menu
+{
+	list-style:none;
+	margin:0; padding:0;
+	margin-bottom:8px;
+	position: relative; /*IE bug*/
+}
+
+ul.left-menu li
+{
+	padding: 0 0 22px 0;
+}
+
+ul.left-menu li a
+{
+	font-size:15px;
+    background: #fff;
+    color: #025156;
+    text-transform: uppercase;
+	font-weight:normal;
+	text-decoration:none;
+    display: block;
+    border: 2px solid #025156;
+    border-radius: 4px 14px 4px 14px;
+    overflow: hidden;
+    font-family: HelveticaNeueCyr-Medium,Arial sans-serif;
+    padding: 7px 22px;
+}
+
+ul.left-menu li a.selected,
+ul.left-menu li a:hover
+{
+    background: #025156;
+    color: #fff;
+}

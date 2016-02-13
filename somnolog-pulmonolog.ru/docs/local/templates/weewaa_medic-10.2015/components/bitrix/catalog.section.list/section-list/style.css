@@ -1,0 +1,16 @@
+/* line */
+.section-list {
+    background: #007077;
+    padding: 18px 20px 10px;
+}
+.section-list div {
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.section-list p {
+    margin: 9px 0;
+}
+.section-list a {
+    color: #fff;
+}

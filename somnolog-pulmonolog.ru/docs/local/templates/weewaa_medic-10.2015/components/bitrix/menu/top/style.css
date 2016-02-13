@@ -1,0 +1,44 @@
+#top-menu {
+    background: #025156;
+    height: 35px;
+    border-radius: 6px 14px 6px 14px;
+    overflow: hidden;
+    margin: 18px 0 25px 0;
+    padding: 0 30px 0 18px;
+    position: relative;
+}
+
+#top-menu a {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 33px 0 12px;
+    padding: 0 20px;
+    height: 35px;
+    font-family: HelveticaNeueCyr-Medium, Arial sans-serif;
+}
+
+#top-menu a:hover,
+#top-menu a.selected {
+    background: #007077;
+}
+#top-menu span {
+    background: #007077 url("/local/templates/weewaa_medic-10.2015/images/footer-clock.gif") no-repeat scroll 20px 10px;
+    color: #fff;
+    display: inline-block;
+    font-family: HelveticaNeueCyr-Light, Arial sans-serif;
+    font-size: 13px;
+    height: 35px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#top-menu span b {
+    font-weight: normal;
+}

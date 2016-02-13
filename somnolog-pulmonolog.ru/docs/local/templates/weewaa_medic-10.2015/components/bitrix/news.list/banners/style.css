@@ -1,0 +1,92 @@
+#main-slider {
+    background: #025156;
+    height: 370px;
+    width: 1200px;
+    border-radius: 0 0 14px 14px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+#main-slider ul {
+
+}
+#main-slider ul li > div {
+    color: #fff;
+    text-align: center;
+    width: 960px;
+    height: 36px;
+    margin: 14px auto 0;
+}
+#main-slider ul li div.text p {
+    opacity: 0;
+    color: #fff;
+    font-size: 18px;
+}
+#main-slider ul li:first-child div.text p {
+    opacity: 1;
+}
+.jcarousel-wrapper {
+    position: relative;
+}
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+.jcarousel-pagination {
+    margin: 0;
+    position: relative;
+    top: -62px;
+    text-align: center;
+}
+.jcarousel-pagination a {
+    display: inline-block;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: #c9cdcd;
+    margin: 0 5px;
+    line-height: 999;
+    overflow: hidden;
+}
+.jcarousel-pagination a.active {
+    background: #fff;
+}
+.jcarousel-control-next,
+.jcarousel-control-prev {
+    width: 27px;
+    height: 27px;
+    display: block;
+    position: absolute;
+    bottom: 22px;
+    line-height: 999;
+    overflow: hidden;
+}
+
+.jcarousel-control-prev {
+    left: 30px;
+    background: url("/local/templates/weewaa_medic-10.2015/images/arr.png") no-repeat scroll left -38px;
+}
+
+.jcarousel-control-next {
+    right: 30px;
+    background: url("/local/templates/weewaa_medic-10.2015/images/arr.png") no-repeat scroll right -38px;
+}
+
+.jcarousel-control-prev:hover {
+    background: url("/local/templates/weewaa_medic-10.2015/images/arr.png") no-repeat scroll left -1px;
+}
+
+.jcarousel-control-next:hover {
+    background: url("/local/templates/weewaa_medic-10.2015/images/arr.png") no-repeat scroll right -1px;
+}

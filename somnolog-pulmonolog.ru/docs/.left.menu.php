@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Храп и апноэ сна", 
+		"/khrap-i-apnoe-sna/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Диагностика", 
+		"/diagnostika/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Лечение", 
+		"/lechenie/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"СиПАП-терапия", 
+		"/sipap-terapiya/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
